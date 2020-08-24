@@ -150,7 +150,7 @@ Route::prefix('admin')->group(function() {
             Route::get('/edit/{id}','Admin\UserController@showFormEditUser');
             Route::post('/edit/{id}','Admin\UserController@edit');
             Route::get('/delete/{id}','Admin\UserController@delete');
-        });
+});
 
 
 
