@@ -187,20 +187,7 @@
 
                                     <div class="field">&nbsp;</div>
 
-                                <div class="field">
-                                    <div class="m-portlet m-portlet--tab" >
-                                        <div class="m-portlet__body">
-                                            <div class="col-sm-12" style="background-color:#f2f2f2;border:inset" ><br>
-                                                <div class="form-group field-posts-images has-success" >
-
-                                                <label class="control-label" for="images">Hình ảnh</label>
-                                                <input type="file" id="images" class="form-control" name="images">
-
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
+                             
 
                             </div>
 
