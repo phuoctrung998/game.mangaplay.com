@@ -85,19 +85,11 @@ class PostController extends Controller
     }
     public function editpost($id,Request $request)
     {
-        $item = PostModel::find($id);
-
-        $request->validate([
-            'images' => 'required|mimes:pdf,xlx,csv,png,jpg',
-        ]);
-        $path="/uploads/images/post/";
-        $fileName = time().'.'.$request->images->extension();
-        $request->images->move(public_path($path), $fileName);
-
-        $item->images = $path.$fileName;
+      
 
         $input = $request->all();
 
+        $item = PostModel::find($id);
         $item->name = $input['name'];
         $item->cate_id = $input['cate_id'];
         $item->post_cat_id = $input['post_cat_id'];
