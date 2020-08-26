@@ -56,7 +56,7 @@
                                             <span class="glyphicon glyphicon-pencil" title="Edit"></span>
                                             </a>
 
-                                            <a href="{{url('/admin/giftcode/deletegiftcode/'.$code->id)}}">
+                                            <a onclick="return confirm('Delete this Giftcode ?')" href="{{url('/admin/giftcode/deletegiftcode/'.$code->id)}}">
                                                     <span class="glyphicon glyphicon-trash" title="Delete"></span>
                                             </a>
 
