@@ -28,11 +28,24 @@
                                     <tbody>
 
                                     @foreach($cates as $cate)
+
+                                    <?php
+                                        //xét điều kiện hiển thị
+                                        $id = $cate->status;
+
+                                        if ($id == 1){
+                                            $id = 'Hoạt động';
+                                        } elseif ($id == 0) {
+                                            $id = 'None';
+                                        }
+
+
+                                    ?>
                                         <tr>
                                             <td><span class="footable-toggle"></span>{{ $cate-> id }}</td>
                                             <td>{{ $cate->name }}</td>
                                             <td>{{ $cate->code }}</td>
-                                            <td>{{ $cate->status }}</td>
+                                            <td>{{ $id }}</td>
                                             <td>{{ $cate->flag_home }}</td>
                                             <td>{{ $cate->updated_at }}</td>
 
@@ -43,7 +56,7 @@
                                             <span class="glyphicon glyphicon-pencil" title="Edit"></span>
                                             </a>
 
-                                            <a onclick="return confirm('Delete this Cates ?')" href="{{url('/admin/giftcode/deletegiftcodecates/'.$cate->id)}}">
+                                            <a onclick="return confirm('Delete this cates ?')"href="{{url('/admin/giftcode/deletegiftcodecates/'.$cate->id)}}">
                                                     <span class="glyphicon glyphicon-trash" title="Delete"></span>
                                             </a>
 
