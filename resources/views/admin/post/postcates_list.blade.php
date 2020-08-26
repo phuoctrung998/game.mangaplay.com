@@ -19,6 +19,7 @@
                                             <th>Parent_id</th>
                                             <th>Meta_title</th>
                                             <th>Meta_des</th>
+                                            <th>Updated_at</th>
                                             <th>Action</th>
 
 
@@ -34,6 +35,7 @@
                                             <td>{{ $post->parent_id }}</td>
                                             <td>{{ $post->meta_title }}</td>
                                             <td>{{ $post->meta_description }}</td>
+                                            <td>{{ $post->updated_at }}</td>
 
 
                                             <td>
