@@ -19,7 +19,6 @@
                                             <th> Name</th>
                                             <th>Slider_cate_id</th>
                                             <th>Url</th>
-                                            <th>Description</th>
                                             <th>Updated_at</th>
                                             <th>Action</th>
                                         </tr>
@@ -33,7 +32,6 @@
                                             <td>{{ $slider->name }}</td>
                                             <td>{{ $slider->slider_cate_id }}</td>
                                             <td><a target="blank" href="{{ $slider->url }}">{{ $slider->url }}</a></td>
-                                            <td>{{ $slider->description }}</td>
                                             <td>{{ $slider->updated_at }}</td>
 
                                             <td class="jsgrid-cell jsgrid-control-field jsgrid-align-center" style="width: 80px;">
