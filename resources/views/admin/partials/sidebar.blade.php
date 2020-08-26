@@ -28,7 +28,7 @@
 
                     <li class="nav-label"> Components</li>
                     <li class="mega-menu mega-menu-md"><a class="has-arrow" href="javascript:void()" aria-expanded="false">
-                        <i class="mdi mdi-television-guide"></i><span class="nav-text">Post &emsp; <i class="fa fa-chevron-down" aria-hidden="true"> </i> </span></a>
+                        <i class="mdi mdi-message-draw"></i><span class="nav-text">Post &emsp; <i class="fa fa-chevron-down" aria-hidden="true"> </i> </span></a>
 
 
                         <ul aria-expanded="false">
@@ -44,7 +44,7 @@
                         </ul>
                     </li>
                     <li class="mega-menu mega-menu-xl"><a class="has-arrow" href="javascript:void()" aria-expanded="false">
-                        <i class="mdi mdi-collage"></i><span class="nav-text">Slide &emsp; <i class="fa fa-chevron-down" aria-hidden="true"> </i></span> </a>
+                        <i class="mdi  mdi-arrange-send-backward"></i><span class="nav-text">Slide &emsp; <i class="fa fa-chevron-down" aria-hidden="true"> </i></span> </a>
                         <ul aria-expanded="false">
                             <li><a href="{{url('/admin/sliders/addsliders')}}">Sliders </a>
                             </li>
@@ -58,7 +58,7 @@
 
                         </ul>
                     </li>
-                    <li><a class="has-arrow" href="javascript:void()" aria-expanded="false"><i class="mdi mdi-widgets">
+                    <li><a class="has-arrow" href="javascript:void()" aria-expanded="false"><i class="mdi  mdi-repeat">
                     </i><span class="nav-text">Trade &emsp; <i class="fa fa-chevron-down" aria-hidden="true"> </i></span> </a>
                         <ul aria-expanded="false">
                             <li><a href="{{url('/admin/trade/addmkt')}}">Mkt</a>
@@ -74,7 +74,7 @@
                     </li>
 
 
-                    <li class="nav-label">App </li>
+                    <li class="nav-label">App</li>
                     <li><a class="has-arrow" href="javascript:void()" aria-expanded="false"><i class="mdi mdi-email-outline"></i>
                     <span class="nav-text">Email &emsp; <i class="fa fa-chevron-down" aria-hidden="true"> </i></span></a>
                         <ul aria-expanded="false">
@@ -99,7 +99,7 @@
 
                         </ul>
                     </li>
-                    <li><a class="has-arrow" href="javascript:void()" aria-expanded="false"><i class="mdi mdi-ticket"></i>
+                    <li><a class="has-arrow" href="javascript:void()" aria-expanded="false"><i class="mdi mdi-gamepad-variant"></i>
                     <span class="nav-text">Mini Game &emsp; <i class="fa fa-chevron-down" aria-hidden="true"> </i></span> </a>
                         <ul aria-expanded="false">
                             <li><a href="#">Minigame_Outcome</a>
@@ -125,7 +125,7 @@
                         </ul>
                     </li>
                     <li class="nav-label">User </li>
-                    <li><a class="has-arrow" href="javascript:void()" aria-expanded="false"><i class="mdi mdi-table"></i>
+                    <li><a class="has-arrow" href="javascript:void()" aria-expanded="false"><i class="mdi mdi-account-box-outline"></i>
                     <span class="nav-text">Username &emsp; <i class="fa fa-chevron-down" aria-hidden="true"> </i></span></a>
                         <ul aria-expanded="false">
 
@@ -140,7 +140,7 @@
                         </ul>
                     </li>
                     <li class="nav-label">ADMIN </li>
-                    <li><a class="has-arrow" href="/listadmin" aria-expanded="false"><i class="mdi mdi-message-draw"></i>
+                    <li><a class="has-arrow" href="/listadmin" aria-expanded="false"><i class="mdi mdi-account"></i>
                     <span class="nav-text">List Admin &emsp; <i class="fa fa-chevron-down" aria-hidden="true"> </i></span></a>
                         <ul aria-expanded="false">
                             <li><a href="{{url('/admin/listadmin')}}">Admin Infor</a>
