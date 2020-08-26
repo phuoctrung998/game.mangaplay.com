@@ -32,7 +32,7 @@
                                             <td><img src='{{ $slider->images }}' style="height:100px; width:150px"></td>
                                             <td>{{ $slider->name }}</td>
                                             <td>{{ $slider->slider_cate_id }}</td>
-                                            <td>{{ $slider->url }}</td>
+                                            <td><a target="blank" href="{{ $slider->url }}">{{ $slider->url }}</a></td>
                                             <td>{{ $slider->description }}</td>
                                             <td>{{ $slider->updated_at }}</td>
 
