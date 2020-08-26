@@ -37,7 +37,7 @@
                                              <span class="glyphicon glyphicon-pencil" title="Edit"></span>
                                             </a>
 
-                                            <a href="{{url('/admin/trade/deletemoneymkt/'.$money->id)}}">
+                                            <a onclick="return confirm('Delete this MoneyMkt ?')" href="{{url('/admin/trade/deletemoneymkt/'.$money->id)}}">
                                                     <span class="glyphicon glyphicon-trash" title="Delete"></span>
                                             </a>
 
