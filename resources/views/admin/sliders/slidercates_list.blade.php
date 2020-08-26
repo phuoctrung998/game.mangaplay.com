@@ -27,11 +27,26 @@
                                     <tbody>
 
                                     @foreach($cates as $cate)
+
+
+                                    <?php
+                                        //xét điều kiện hiển thị
+                                        $id = $cate->status;
+
+                                        if ($id == 1){
+                                            $id = 'Kích hoạt';
+                                        } elseif ($id == 0) {
+                                            $id = 'None';
+                                        }
+
+
+                                    ?>
+
                                         <tr>
                                             <td><span class="footable-toggle"></span>{{ $cate-> id }}</td>
                                             <td>{{ $cate->name }}</td>
                                             <td>{{ $cate->codes }}</td>
-                                            <td>{{ $cate->status }}</td>
+                                            <td>{{ $id }}</td>
                                             <td>{{ $cate->updated_at }}</td>
 
                                             <td class="jsgrid-cell jsgrid-control-field jsgrid-align-center" style="width: 80px;">
